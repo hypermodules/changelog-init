@@ -1,0 +1,23 @@
+{
+  "name": "changelog-init",
+  "version": "1.0.0",
+  "description": "Initializes a keepachangelog.com changelog in the current directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcomnes/changelog-init.git"
+  },
+  "keywords": [
+    "changelog",
+    "utility"
+  ],
+  "author": "Bret Comnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcomnes/changelog-init/issues"
+  },
+  "homepage": "https://github.com/bcomnes/changelog-init"
+}
