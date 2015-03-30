@@ -6,7 +6,7 @@
   "scripts": {
     "test": "tape test/*.js | tap-spec"
   },
-  "bin" : {
+  "bin": {
     "changelog-init": "bin/changelog-init"
   },
   "repository": {
@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/bcomnes/changelog-init",
   "dependencies": {
-    "run-parallel": "^1.1.0",
-    "run-series": "^1.1.0"
+    "minimist": "^1.1.1"
   },
   "devDependencies": {
     "tap-spec": "^2.2.2",
