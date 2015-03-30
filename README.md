@@ -41,7 +41,7 @@ CHANGELOG.md created at /path/to/project/CHANGELOG.md
 ```js
 var init = require('changelog-init')
 var opts = {force: false}
-init('path/to/changelog', opts, function(err, path) {
+init('/path/to/project/', opts, function(err, path) {
   // Stuff
 })
 ```
