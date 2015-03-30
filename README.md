@@ -46,4 +46,4 @@ init('/path/to/project/', opts, function(err, path) {
 })
 ```
 
-`init` returns and `error` and a `path` where the CHANGELOG.md was saved. 
+`init` returns an `error` and a `path` where the CHANGELOG.md was saved. 
