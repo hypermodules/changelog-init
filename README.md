@@ -22,6 +22,8 @@ CHANGELOG.md created at /project-dir/CHANGELOG.md
 `changelog-init` won't overwrite existing changelogs unless you tell it to:
 
 ```sh
+$ changelog-init
+CHANGELOG.md already exists
 $ changelog-init -F
 Force overwriting existing changelog
 CHANGELOG.md created at /project/CHANGELOG.md
