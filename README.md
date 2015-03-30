@@ -16,6 +16,7 @@ Or use it apart of a larger work flow.
 ```sh
 $ cd project-dir
 $ changelog-init
+CHANGELOG.md created at /project-dir/CHANGELOG.md
 ```
 
 `changelog-init` won't overwrite existing changelogs unless you tell it to:
