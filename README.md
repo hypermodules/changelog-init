@@ -29,7 +29,7 @@ CHANGELOG.md created at /project/CHANGELOG.md
 You can specify a path as well:
 
 ```sh
-$ changelog-unit /path/to/project
+$ changelog-init /path/to/project
 CHANGELOG.md created at /path/to/project/CHANGELOG.md
 ```
 
