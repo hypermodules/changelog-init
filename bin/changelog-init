@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+var init = require('../')
+var path = require('path')
+var argv = require('minimist')(process.argv.slice(2))
+
+function changelogInit (argv) {
+  var dir = path.resolve(argv._[0] || process.cwd())
+  var force = argv.F || false
+  init(dir, {force: force}, function (err, path) {
+    if (err) return console.warn(err.message)
+    console.log('CHANGELOG.md created at ' + path)
+  })
+}
+
+changelogInit(argv)
