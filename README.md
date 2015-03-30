@@ -62,3 +62,4 @@ init('/path/to/project/', opts, function(err, path) {
 - http://keepachangelog.com/
 - https://github.com/ngoldman/gh-release
 - https://github.com/ngoldman/versioneer
+- https://github.com/finnp/create-module
