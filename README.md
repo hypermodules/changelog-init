@@ -1,7 +1,7 @@
 # changelog-init
 [![NPM](https://nodei.co/npm/changelog-init.png)](https://nodei.co/npm/changelog-init/)
 
-Creates a keepachangelog.com changelog in the current directory. 
+Creates a keepachangelog.com changelog in the current directory.  It tries to grab some default values from package.json and folder names.  
 
 ## Install
 
@@ -63,4 +63,4 @@ init('/path/to/project/', opts, function(err, path) {
 - https://github.com/ngoldman/gh-release
 - https://github.com/ngoldman/versioneer
 - https://github.com/finnp/create-module
-- https://github.com/ngoldman/changelog-parser`
+- https://github.com/ngoldman/changelog-parser
