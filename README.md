@@ -1,7 +1,9 @@
 # changelog-init
 [![NPM](https://nodei.co/npm/changelog-init.png)](https://nodei.co/npm/changelog-init/)
 
-Creates a [keepachangelog.com](http://keepachangelog.com) changelog in the current directory.  It tries to grab some default values from `package.json` and folder names.  
+Creates a [keepachangelog.com](http://keepachangelog.com) changelog in the current directory.  It tries to grab some default values from `package.json` and folder names.
+
+![demo](changelog-init.gif)
 
 ## Install
 
