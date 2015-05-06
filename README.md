@@ -78,3 +78,4 @@ init('/path/to/project/', opts, function(err, path) {
 - https://github.com/ngoldman/versioneer
 - https://github.com/finnp/create-module
 - https://github.com/ngoldman/changelog-parser
+- https://github.com/ngoldman/module-init
