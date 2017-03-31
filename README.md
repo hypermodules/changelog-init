@@ -76,10 +76,10 @@ init('/path/to/project/', opts, function(err, path) {
 
 ## References
 
-- https://gist.github.com/ngoldman/476a87abd16cd970bb9f
+- https://gist.github.com/ungoldman/476a87abd16cd970bb9f
 - http://keepachangelog.com/
-- https://github.com/ngoldman/gh-release
-- https://github.com/ngoldman/versioneer
+- https://github.com/hypermodules/gh-release
+- https://github.com/ungoldman/versioneer
 - https://github.com/finnp/create-module
-- https://github.com/ngoldman/changelog-parser
-- https://github.com/ngoldman/module-init
+- https://github.com/hypermodules/changelog-parser
+- https://github.com/ungoldman/module-init
