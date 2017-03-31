@@ -14,22 +14,22 @@ function getPackage (dir, cb) {
   var packagePath = path.resolve(dir, 'package.json')
   fs.readFile(packagePath, function (err, data) {
     if (err) return cb(err)
-    var package = JSON.parse(data)
-    cb(null, package)
+    var pkg = JSON.parse(data)
+    cb(null, pkg)
   })
 }
 
 function getData (dir, cb) {
   var name
   var version
-  getPackage(dir, function (err, package) {
+  getPackage(dir, function (err, pkg) {
     if (err) {
       console.warn('No pacakge.json found')
       name = path.basename(dir)
       version = '1.0.0'
     } else {
-      name = package.name
-      version = package.version
+      name = pkg.name
+      version = pkg.version
     }
     var now = new Date()
     var dateStamp = now.toISOString().split('T')[0]
