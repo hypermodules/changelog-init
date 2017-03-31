@@ -4,8 +4,8 @@
 [![npm][npm-image]][npm-url]
 [![stability][stability-image]][stability-url]
 
-[release-image]: https://img.shields.io/github/release/bcomnes/changelog-init.svg?style=flat-square
-[release-url]: https://github.com/bcomnes/changelog-init/releases/latest
+[release-image]: https://img.shields.io/github/release/hypermodules/changelog-init.svg?style=flat-square
+[release-url]: https://github.com/hypermodules/changelog-init/releases/latest
 [npm-image]: https://img.shields.io/npm/v/changelog-init.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/changelog-init
 [stability-image]: https://img.shields.io/badge/stability-2%20--%20unstable-yellow.svg?style=flat-square
