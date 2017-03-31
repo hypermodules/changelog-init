@@ -2,15 +2,12 @@
 
 [![release][release-image]][release-url]
 [![npm][npm-image]][npm-url]
-[![travis][travis-image]][travis-url]
 [![stability][stability-image]][stability-url]
 
 [release-image]: https://img.shields.io/github/release/bcomnes/changelog-init.svg?style=flat-square
 [release-url]: https://github.com/bcomnes/changelog-init/releases/latest
 [npm-image]: https://img.shields.io/npm/v/changelog-init.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/changelog-init
-[travis-image]: https://img.shields.io/travis/bcomnes/changelog-init.svg?style=flat-square
-[travis-url]: https://travis-ci.org/bcomnes/changelog-init
 [stability-image]: https://img.shields.io/badge/stability-2%20--%20unstable-yellow.svg?style=flat-square
 [stability-url]: https://nodejs.org/api/documentation.html#documentation_stability_index
 
@@ -83,3 +80,7 @@ init('/path/to/project/', opts, function(err, path) {
 - https://github.com/finnp/create-module
 - https://github.com/hypermodules/changelog-parser
 - https://github.com/ungoldman/module-init
+
+## License
+
+ISC
