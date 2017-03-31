@@ -70,6 +70,10 @@ init('/path/to/project/', opts, function(err, path) {
 
 `init` returns an `error` and a `path` where the CHANGELOG.md was saved.
 
+## See Also
+
+- [changelog-maker](https://github.com/rvagg/changelog-maker)
+
 ## References
 
 - https://gist.github.com/ngoldman/476a87abd16cd970bb9f
