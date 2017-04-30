@@ -1,5 +1,7 @@
 # changelog-init
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hypermodules/changelog-init.svg)](https://greenkeeper.io/)
+
 [![release][release-image]][release-url]
 [![npm][npm-image]][npm-url]
 [![stability][stability-image]][stability-url]
